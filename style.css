@@ -141,8 +141,8 @@ body {
     height: 380px;
     position: absolute;
     right: 0;
+    border: 2px solid black;
 }
-
 
 
 .swiper {
@@ -155,6 +155,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    object-fit: cover;
 }
 
 .swiper-slide h3 {
@@ -167,12 +168,14 @@ body {
     text-transform: uppercase;
 }
 
+
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+    border: 1px solid yellow;
 }
 
 .rows {
