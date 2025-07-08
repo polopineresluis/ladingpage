@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-    background-image: url(images/bg3.jpg);
+    background-image: url("https://images.pexels.com/photos/10474377/pexels-photo-10474377.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,7 +141,6 @@ body {
     height: 380px;
     position: absolute;
     right: 0;
-    border: 2px solid black;
 }
 
 
@@ -175,7 +174,6 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    border: 1px solid yellow;
 }
 
 .rows {
@@ -214,15 +212,15 @@ body {
 /* Servicios */
 .servicios {
     width: 100%;
-    background-color: #6ff8ef;
-    padding: 2px;
+    min-height: 100%;
     display: flex;
-    align-items: start;
-    border: 1px solid yellow;
+    flex-wrap: wrap;
+    background-image: url("https://images.pexels.com/photos/3654769/pexels-photo-3654769.jpeg");
+    padding: 2px;
 }
 
-.servicios .caminatas {
-    width: 100%;
+.servicios .mecedoras {
+    flex: 1 1 400px;
     margin: 20px;
     display: flex;
     align-items: center;
@@ -230,14 +228,14 @@ body {
     position: relative;
 }
 
-.servicios .caminatas img {
+.servicios .mecedoras img {
     border-radius: 4%;
     width: 100%;
 }
 
-.caminatas h3,
-.futbol h3,
-.bicicletas h3 {
+.mecedoras h3,
+.mochilas h3,
+.floreros h3 {
     position: absolute;
     left: 20px;
     bottom: 10px;
@@ -247,35 +245,31 @@ body {
     text-transform: uppercase;
 }
 
-.servicios .futbol {
-    width: 100%;
+.servicios .mochilas {
+    flex: 1 1 400px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.futbol img {
+.mochilas img {
     width: 100%;
     border-radius: 4%;
 }
 
-.bicicletas {
+.floreros {
+    flex: 1 1 400px;
     margin: 20px;
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
 }
 
-.bicicletas img {
+.floreros img {
     width: 100%;
     border-radius: 4%;
-}
-
-.bicicletas img {
-    width: 100%;
 }
 
 /*

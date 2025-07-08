@@ -4,9 +4,9 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
     spaceBetween: 30,
     grabCursor: true,
-    navigator: {
-        nextEl: 'swiper-button-next',
-        prevEl: 'swiper-button-prev'
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
     },
 
     breakpoints: {
