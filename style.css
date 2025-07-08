@@ -348,8 +348,8 @@ body {
 
     /* servicios */
     .servicios {
+        display: flex;
         align-items: center;
-        flex-direction: column;
     }
 
 }
